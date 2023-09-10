@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Página Web</title>
+</head>
+<body>
+    <section class="Inicio" id="Inicio" >
+        <h1>Antonella Florencia Cardozo</h1>
+        <p>Mi nombre es Antonella Florencia Cardozo, todos me conocen como <b>Floor</b>.
+            Tengo 23 años y soy estudiante de la carrera de Analista de Sistemas en el 
+            Instituto Superior del Milagro</p>
+      </section>
+      <br>
+      <hr>
+      <header><h1>Menú</h1></header>
+        <nav class="block">
+          <ul class="list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#formacademica">Formación Académica</a></li>
+            <li><a href="#pasatiempos">Pasatiempos</a></li>
+            <li><a href="#formregistro">Formulario de Registro</li>
+          </ul>
+        </nav>
+        <br>
+        <hr>
+        <section class="formacademica" id="formacademica">
+          <h1>Formación Académica</h1>
+          <ol class="list">
+            <li><b>Educación Primaria</b></li>
+              <ul>
+                <li>Escuela de Villa Asunción (2005-2012)</li>
+              </ul>
+              <br>
+              <li><b>Educación Secundaria</b></li>
+                <ul>
+                  <li>Escuela de Comercio N°5083 'Dr Victorino de la Plaza' (2013-2017)</li>
+                    <li>BSPA 'Prof. Oscar Montenegro' (2018-2019)</li>
+                    <li>SVDF 'Sistema Virtual de Formación a Distancia' (2020-2021)</li>
+                </ul>
+                <br>
+              <li><b>Educación Superior</b></li>
+                <ul>
+                  <li>Instituto Superior del Milagro N°8207 (2022-2023)</li>
+                </ul>
+          </ol>
+          <br>
+          <hr>
+          
+          <section class="pasatiempos" id="pasatiempos">
+            <h1>Intereses o Pasatiempos</h1>
+            <ul class="list">
+                <li>Jugar a la pelota</li>
+                <li>Andar en moto</li>
+                <li>Escuchar música</li>
+                <li>Comer</li>
+                <li>Dormir</li>
+                <li>Pasar tiempo en familia</li>
+            </ul>
+          </section>
+          <hr>
+          <main>  
+            <section class="formregistro" id="formregistro">  
+                <h2>Formulario de Registro</h2>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>Formulario</legend>
+        
+                    <label for="Nombre" style="cursor: pointer;">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre-de-usuario" maxlength="50">
+                    <label for="Nombre" style="cursor: pointer;">Apellido: </label>
+                    <input type="text" id="apellido" name="apellido-de-usuario" maxlength="50"> 
+        
+              
+        
+                <label for="email">Correo: </label>
+                <input type="text" id="email" name="correo" required>
+        
+                        <br>
+                        <br>
+                        <label for="Descripción">Texto: </label>
+                        <br>
+                        <textarea name="texto" id="texto" cols="40" rows="15"></textarea>
+                        <br>
+                        <br>
+        
+                        <br>
+                        
+                        <button type="submit">Enviar</button>
+                        
+                        <br>
+              </form>
+                <br>
+            </section>
+</body>
+</html>
